@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="home-heading">
+                <h3>HOME</h3>
+                <div class="home-score">
+                    <h1 id="home-score-el">0</h1>
+                </div>
+                <div class="home-addPoints">
+                    <button id="home-add1Points" onclick="homeAdd1Points()">+1</button>
+                    <button id="home-add2Points" onclick="homeAdd2Points()">+2</button>
+                    <button id="home-add3Points" onclick="homeAdd3Points()">+3</button>
+                </div>
+            </div>
+
+            <div class="clock">
+                <p>Timer (30 sec)</p>
+                <div class="timer">0</div>
+                <p>Period (4)</p>
+                <div class="period">0</div>
+                <button class="play-btn">Play Game</button>
+                <button class="pause-btn">Pause Game</button>
+            </div>
+            
+            <div class="guest-heading">
+                <h3>GUEST</h3>
+                <div class="guest-score">
+                    <h1 id="guest-score-el">0</h1>
+                </div>
+                <div class="guest-addPoints">
+                    <button id="guest-add1Points" onclick="guestAdd1Points()">+1</button>
+                    <button id="guest-add2Points" onclick="guestAdd2Points()">+2</button>
+                    <button id="guest-add3Points" onclick="guestAdd3Points()">+3</button>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="row">
+            <div class="resetGame">
+                <button onclick="newGame()">New Game</button>
+            </div>
+    
+            <div class="resetGame">
+                <button onclick="saveGame()">Save Game</button>
+            </div>
+        </div>
+
+        <div class="lastGame">
+            <p>Last Game:</p>
+            <p id="save-el"></p>
+        </div>
+        
+    </div>
+    
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

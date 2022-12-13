@@ -1,0 +1,217 @@
+@import url('https://cdn.jsdelivr.net/gh/mustafazeydani/Fonts/CursedTimerULiL/CursedTimerULiL.css');
+
+*{
+    margin: auto;
+    margin-top: 2%;
+    padding: auto;
+    text-align: center;
+}
+
+.container{
+    background-color: #4C1D95;
+    border: 5px solid black;
+    border-radius: 10px;
+    max-width: 700px;
+    max-height: 500px;
+    position: relative;
+}
+
+.container .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .row .clock{
+    color: #F94F6D;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.container .row .clock .timer{
+    background-color: black;
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 80px;
+    font-family: Cursed Timer ULiL;
+    font-size: 40px;
+    color: #F94F6D;
+    margin-bottom: 15px;
+}
+
+.container .row .clock .period{
+    background-color: black;
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 80px;
+    font-family: Cursed Timer ULiL;
+    font-size: 40px;
+    color: #F94F6D;
+    margin-bottom: 15px;
+}
+
+.container .row .clock button{
+    font-family: Verdana;
+    font-weight: 400;
+    font-size:18px;
+    line-height: 27.81px;
+    text-align: center;
+    color: #b6c3e6;
+    border: 2px solid #b6c3e6;
+    border-radius: 5px;
+    background-color: #4C1D95;
+    margin-bottom: 15px;
+}
+
+.container .row .clock button:hover{
+    background-color: #6915e6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.home-heading h3{
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.guest-heading h3{
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .home-heading .home-score{
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.container .home-heading .home-score #home-score-el {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    line-height: 140px;
+}
+
+.container .guest-heading .guest-score #guest-score-el {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    line-height: 140px;
+}
+
+.container .home-heading .home-addPoints{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.container .home-heading .home-addPoints button{
+    font-family: Cursed Timer ULiL;
+    width: 45px;
+    height:45px;
+    font-weight: 400;
+    font-size:18px;
+    line-height: 27.81px;
+    text-align: center;
+    color: #b6c3e6;
+    border: 2px solid #b6c3e6;
+    border-radius: 5px;
+    background-color: #4C1D95;
+}
+
+.container .home-heading .home-addPoints button:hover{
+    background-color: #6915e6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.container .guest-heading .guest-score{
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.container .guest-heading .guest-score #score-el {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    line-height: 140px;
+}
+
+.container .guest-heading .guest-addPoints{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.container .guest-heading .guest-addPoints button{
+    font-family: Cursed Timer ULiL;
+    width: 45px;
+    height:45px;
+    font-weight: 400;
+    font-size:18px;
+    line-height: 27.81px;
+    text-align: center;
+    color: #b6c3e6;
+    border: 2px solid #b6c3e6;
+    border-radius: 5px;
+    background-color: #4C1D95;
+}
+
+.container .guest-heading .guest-addPoints button:hover{
+    background-color: #6915e6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.container .row .resetGame button{
+    font-family: Verdana;
+    font-weight: 400;
+    font-size:18px;
+    line-height: 27.81px;
+    text-align: center;
+    color: #b6c3e6;
+    border: 2px solid #b6c3e6;
+    border-radius: 5px;
+    background-color: #4C1D95;
+    margin-bottom: 15px;
+}
+
+.container .row .resetGame button:hover{
+    background-color: #6915e6;
+    transition: 0.5S;
+    cursor: pointer;
+}
+
+.container .lastGame {
+    background-color: black;
+    font-family: Verdana;
+    padding: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27.81px;
+    text-align: center;
+    color: #F94F6D;
+}
